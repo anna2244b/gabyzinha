@@ -7,9 +7,10 @@ def mapa():
 ilha1 = input('Emma - ei, capitão!, Aquilo alí parece uma ilha. devemos parar o navio? sim/não')
 while True:
  if ilha1 == 'sim':
-  print('PIRATAS!. vamos procurar comidas mantimentos armas etc... NÃO SE SEPAREM OK? piratas- SIM SENHOR CAPITÃO!!!!.')
+  print('vamos parar naquela ilha primeiro, nao se separem piratas')
   monstro = 1
-  usuario = input('digite um numero de 1 a 12: ')
+  print('oque seria aquilo ali, que barulho foi esse meu deus corram!!!')
+  usuario = int(input('digite um numero de 1 a 12: '))
   if usuario <= monstro:
    print('fugimos.. uou oque È isso parece um mapa')
    pegar = input('pegar mapa')
@@ -23,9 +24,9 @@ while True:
  else:
   print('Seu navio entrou em uma grande tempestade')
  tempestade = randint(0, 3)
- if tempestade == '2':
-   print('Oops! you died.')
- else:
-  print('vc escapou')
+ if tempestade == '1':
 
- break
+  print('escapou!!!')
+ else:
+  print('Oops! you died.')
+  break

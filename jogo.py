@@ -1,0 +1,1 @@
+print(oii,bem vindo a o site )
